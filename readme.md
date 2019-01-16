@@ -13,11 +13,19 @@ Following are steps for running rest end points.
 1- Application port set is 8000 and following would be urls to hit through http client.
 
 Get All Employees - Get Call - http://localhost:8000/employee/all
+
 Get Employee By Id - Get Call - http://localhost:8000/employee/1 ------ where 1 is employee id
+
 Add Employee - Post Call - http://localhost:8000/employee/add ---- Test with like {"id":0,"fullName":"abdul","age":30.3,"salary":1233.00}
+
 Update Employee - Post Call - http://localhost:8000/employee/update ---- Test with like {"id":2,"fullName":"abdul","age":30.3,"salary":1233.00}
+
 Delete Employee - Post Call - http://localhost:8000/employee/delete/1 
+
 Filter and Sort by Age  - Post Call - http://localhost:8000/employee/filterbyage --- Test with like {"operator": "lt", "value": 30, "sort": "asc"}
 
-Work is also with 6 test cases i.e one for each work rest call where for test success both response code and custom response status are checked for test to be successfull. Detail work for verification hasn't been done for verifications like to verify if list returned is sorted or not etc.
+
+Work is also with 6 test cases i.e one for each work rest call where for test success both response code and custom response status are checked for test to be successful. Detail work for verification hasn't been done for verifications like to verify if list returned is sorted or not etc.
+
+Also api doc is also generated and is in doc folder.
 
