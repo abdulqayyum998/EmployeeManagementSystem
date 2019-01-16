@@ -1,0 +1,7 @@
+com.ems.app
+com.ems.app.tests
+com.ems.common
+com.ems.object
+com.ems.rest.controllers
+com.ems.rest.objects
+com.ems.service
