@@ -15,6 +15,7 @@ import com.ems.rest.objects.ResponseStatus;
  * 3) Employee List - For all rest calls where there would be some returning data then
  * 						this variable will contain all returned employees list. 
  */
+// M1
 public class Response {
 	
 	/** The response status. */
