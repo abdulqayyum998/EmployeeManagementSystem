@@ -17,8 +17,8 @@ import com.ems.rest.objects.ResponseStatus;
  */
 // M1
 //F1
-//F2
-//feature 22222222
+//Master
+    //Master
 public class Response {
 	
 	/** The response status. */
